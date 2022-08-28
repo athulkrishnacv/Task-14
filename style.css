@@ -63,32 +63,21 @@ br.clear {
   max-width: 1040px;
 }
 @font-face {
-  font-family: GT-Eesti;
-  src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"),
-    url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: GT-Eesti;
-  src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"),
-    url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+  font-family: "Inter";
+  src: url("./fonts/stylesheet.css") format("woff2"),
+    url("./fonts/") format("woff");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
+
 @font-face {
-  font-family: GT-Eesti;
-  src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"),
-    url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
-  font-weight: 600;
+  font-family: "Inter";
+  src: url("./fonts/stylesheet.css") format("woff2"),
+    url("./fonts/") format("woff");
+  font-weight: normal;
   font-style: normal;
-}
-@font-face {
-  font-family: GT-Eesti;
-  src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"),
-    url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
+  font-display: swap;
 }
 ::placeholder {
   color: rgb(192, 204, 218);
@@ -108,19 +97,20 @@ br.clear {
 #home::after {
   content: "";
   position: absolute;
-  z-index: -1;
+  z-index: 1;
   top: 0px;
   height: 100vh;
   width: 100%;
   background-image: url("Assets/Subtract.png");
   background-size: cover;
-  opacity: 2;
+  opacity: 1;
 }
 #home header {
-  z-index: 2;
   display: flex;
   justify-content: space-between;
   margin: 0px auto;
+  padding: 10px 0px;
+  padding: 2px 0px;
   align-items: center;
 }
 #home header div.logo {
@@ -139,7 +129,10 @@ br.clear {
   justify-content: space-between;
 }
 #home header nav.middle ul li {
-  margin-left: 20px;
+  margin-left: 26px;
+}
+#home header nav.middle ul li:first-child {
+  margin-left: 0px;
 }
 #home header nav.middle ul li a {
   font-size: 13px;
@@ -152,14 +145,15 @@ br.clear {
   padding: 9px 22px;
   border-radius: 35px;
   display: inline-block;
-  background: rgb(75, 153, 81);
+  background: rgb(8, 89, 16);
   background: linear-gradient(
-    90deg,
-    rgba(75, 153, 81, 1) 0%,
+    32deg,
     rgba(8, 89, 16, 1) 0%,
-    rgba(114, 201, 122, 1) 94%,
-    rgba(128, 204, 138, 1) 100%
+    rgba(75, 153, 81, 1) 0%,
+    rgba(132, 194, 137, 1) 54%,
+    rgba(220, 255, 225, 1) 100%
   );
+  color: #fff;
 }
 #home div.container {
   position: absolute;
@@ -183,6 +177,66 @@ br.clear {
   padding: 9px 22px;
   border-radius: 35px;
   display: inline-block;
-  background: rgb(118, 175, 80);
+  background: rgb(8, 89, 16);
+  background: linear-gradient(
+    32deg,
+    rgba(8, 89, 16, 1) 0%,
+    rgba(75, 153, 81, 1) 0%,
+    rgba(132, 194, 137, 1) 54%,
+    rgba(220, 255, 225, 1) 100%
+  );
   color: rgb(255, 255, 255);
+}
+#services {
+  position: relative;
+  height: 100vh;
+  background: url("/Assets/Vector\ 283.png") no-repeat;
+  background-size: 70%;
+  background-position-x: -170px;
+}
+#services div.content {
+  position: absolute;
+  bottom: 325px;
+  left: 65px;
+  width: 50%;
+}
+#services div.content h2 {
+  font-size: 34px;
+  font-weight: 600;
+}
+#our_services {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+}
+#our_services h2 {
+}
+#our_services div.services {
+  
+}
+#our_services div.services ul {
+  display: flex;
+  justify-content: space-between;
+}
+#our_services div.services ul li {
+  margin-left: 20px;
+}
+#our_services div.services ul li div.frame {
+  width: 110px;
+
+}
+#our_services div.services ul li div.frame img {
+  width: 100%;
+  display: block;
+}
+#our_services div.services ul li div.picture {
+  width: 50px;
+}
+#our_services div.services ul li div.picture img {
+  width: 100%;
+  display: block;
+}
+#our_services div.services ul li h3 {
+}
+#our_services div.services ul li p {
 }
