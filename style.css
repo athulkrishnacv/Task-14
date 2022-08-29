@@ -205,14 +205,11 @@ br.clear {
   font-weight: 600;
 }
 #our_services {
-  position: relative;
-  height: 100vh;
   text-align: center;
 }
 #our_services h2 {
 }
 #our_services div.services {
-  
 }
 #our_services div.services ul {
   display: flex;
@@ -223,7 +220,6 @@ br.clear {
 }
 #our_services div.services ul li div.frame {
   width: 110px;
-
 }
 #our_services div.services ul li div.frame img {
   width: 100%;
@@ -239,4 +235,106 @@ br.clear {
 #our_services div.services ul li h3 {
 }
 #our_services div.services ul li p {
+}
+#middle {
+  position: relative;
+  background: url(/Assets/Vector\ 284.png) no-repeat;
+  background-size: 100%;
+  height: 100vh;
+}
+#middle div.left {
+  width: 638px;
+  position: absolute;
+  top: 250px;
+}
+#middle div.left img {
+  display: block;
+  border-radius: 150px 90px 100px 50px;
+}
+#middle div.right {
+  width: 50%;
+  position: relative;
+  top: 324px;
+  left: 650px;
+}
+#middle div.right h2 {
+  font-size: 50px;
+  font-weight: 600;
+}
+#middle div.right p {
+}
+#middle div.right a.button {
+  padding: 9px 22px;
+  border-radius: 35px;
+  display: inline-block;
+  background: rgb(8, 89, 16);
+  background: linear-gradient(
+    32deg,
+    rgba(8, 89, 16, 1) 0%,
+    rgba(75, 153, 81, 1) 0%,
+    rgba(132, 194, 137, 1) 54%,
+    rgba(220, 255, 225, 1) 100%
+  );
+  color: #fff;
+}
+#consulting {
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+#consulting div.left {
+  margin-top: 215px;
+  width: 230px;
+}
+#consulting div.left h2 {
+  font-size: 40px;
+  font-weight: 800;
+  width: 358px;
+}
+#consulting div.right {
+  text-align: center;
+}
+#consulting div.right ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+}
+#consulting div.right ul li {
+}
+#consulting div.right ul li:first-child {
+  position: absolute;
+  top: 178px;
+  width: 219px;
+  left: 429px;
+}
+#consulting div.right ul li:nth-child(2) {
+  position: absolute;
+  bottom: 190px;
+  right: 461px;
+  width: 250px;
+}
+#consulting div.right ul li:nth-child(3) {
+  position: absolute;
+  top: 53px;
+  right: 20px;
+  width: 230px;
+  right: 488px;
+}
+#consulting div.right ul li:nth-child(4) {
+  width: 230px;
+  position: absolute;
+  right: 232px;
+  bottom: 344px;
+}
+#consulting div.right ul li div {
+  width: 40px;
+}
+#consulting div.right ul li div img {
+  display: block;
+  width: 100%;
+}
+#consulting div.right ul li h3 {
+}
+#consulting div.right ul li p {
 }
