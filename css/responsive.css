@@ -1,8 +1,4 @@
 @media all and (max-width: 1380px) {
-  #brands {
-    background: #000;
-  }
-
   #brands section.content div.middle div.bg-img {
     background-position-x: 50px;
   }
