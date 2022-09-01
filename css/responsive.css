@@ -1,0 +1,99 @@
+@media all and (max-width: 1440px) {
+    #brands section.content div.middle div.bg-img {
+      background-position-x: 50px;
+    }
+  
+    #brands section.content div.middle div.bg-img div.img {
+      right: 169px;
+      bottom: 232px;
+      width: 30%;
+      height: 30%;
+    }
+      footer {
+      background-image: url(../images/Vector\ 287.png);
+      background-size: cover;
+      height: 253vh;
+      position: relative;
+      }
+      footer div.greybg {
+      background: #d1d1d1;
+      height: 168vh;
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      }
+      #our_services div.services ul li div.picture {
+      width: 42px;
+      position: absolute;
+      left: 134px;
+      top: 44px;
+      filter: invert(1);
+      right: -190px;
+      top: -28px;        
+      }
+      footer div.greenbg {
+      background: #5e8c42;
+      height: 130vh;
+      position: absolute;
+      z-index: -2;
+      width: 100%;
+      border-radius: 100% 89% 87% 98% / 80% 92% 100% 100%;
+      right: -105px;
+      top: -56px;
+      }
+      #our_services div.services ul li div.picture {
+      width: 42px;
+      position: absolute;
+      left: 134px;
+      top: 44px;
+      filter: invert(1);
+      }
+      #home {
+      height: 270vh;
+      }
+      #home::after {
+      height: 270vh;
+      }
+      #services {
+      background-size: 69%;
+  }
+  }
+  @media all and (max-width:1280px) {
+      #services {
+          background-size: 97%;
+      }
+      #redefine section.content div.right div.img {
+          margin-left: 78px;
+      }
+      #brands section.content div.middle div.bg-img {
+          background-position-x: -19px;
+      }
+      #brands section.content div.middle div.bg-img div.img {
+          right: 146px;
+          bottom: 263px;
+          width: 40%;
+          height: 30%;
+      }
+      #our_services div.services ul li div.picture {
+          left: 103px;
+      }
+      #brands section.content div.bottom {
+          align-items: center;
+          margin-top: 50px;
+      }
+      
+  }
+  @media all and (max-width:1050px){
+      #brands section.content div.middle div.bg-img div.img {
+          right: 109px;
+          bottom: 290px;
+          width: 47%;
+          height: 29%;
+      }
+      #our_services div.services ul li div.picture {
+          left: 95px;
+      }
+      #redefine section.content div.right div.img {
+          display: none;
+      }
+  }
